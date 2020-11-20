@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	background-color: #D3D3D3;
+	font-size: 13px;
+	font-family: Arial;
+}
+
+.leftmenu{
+	width: 200px;
+	background-color: #1f232a;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.company_name{
+	height: 100px;
+	line-height: 100px;
+	font-size: 18px;
+	color: #D3D3D3;
+	text-align: center;
+}
+
+.container{
+	padding-left: 200px;
+}
+
+.top{
+	height: 40px;
+	background-color: #232830;
+	color: #D3D3D3;
+	font-size: 15px;
+}
+
+.top_right{
+	float: right;
+	right: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.top_right a{
+	color: #D3D3D3;
+	text-decoration: none;
+}
+
+.menuarea{
+	color: #D3D3D3;
+}
+.menuarea ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menuarea li{
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	padding-left: 30px;
+	background-size: 15px 15px;
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+}
+
+.menuarea li:hover{
+	background: #000;
+	font-size: 15px;
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+}
+
+.menuarea li a{
+	color: #D3D3D3;
+	text-decoration: none;
+	display: block;
+}
+
+.menuarea li:nth-child(1){
+	background-image: url('../images/icons/home.png');
+}
+
+.menuarea li:nth-child(2){
+	background-image: url('../images/icons/key.png');
+}
+
+.area{
+	padding: 15px;
+}
+
+.tabitem{
+	float: left;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	background-color: #A9A9A9;
+	cursor: pointer;
+}
+
+.activetab{
+	border-bottom: 1px solid #D3D3D3;
+	background-color: #D3D3D3;
+}
+
+.tabbody{
+	display: none;
+}
